@@ -274,3 +274,8 @@ async function loadData(url) {
 loadData("https://static.avalanche.report/weather_stations/stations.geojson");
 
 // Draw Temperatur als Kopie der Draw Stations
+
+//Open XML: Avalanche Report
+let avalRepo = document.getElementById('report');
+console.log(avalRepo)
+
